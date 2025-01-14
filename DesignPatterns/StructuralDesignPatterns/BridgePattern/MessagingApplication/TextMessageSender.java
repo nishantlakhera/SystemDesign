@@ -1,0 +1,9 @@
+//Concrete implementor
+public class TextMessageSender implements MessageSender{
+
+    @Override
+    public void sendMessage(String message) {
+        System.out.println("'" + message + "' : This Message has been sent using TextMessageSender");
+    }
+
+}
